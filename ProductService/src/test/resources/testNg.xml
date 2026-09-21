@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="ProductServiceTestSuite" verbose="1" parallel="false">
+
+    <test name="ProductControllerAPITests">
+        <classes>
+            <!-- Fully qualified class name of your TestNG RestAssured test -->
+            <class name="com.ecom.productservice.controllers.ProductControllerRestAssuredTest"/>
+        </classes>
+    </test>
+
+</suite>
